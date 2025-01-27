@@ -32,16 +32,17 @@ No inputs.
 No outputs.
 ## Resource types
 
-No resources.
-
-
+          No resources.
+      
+    
 ## Modules
 
 No modules.
 ## Resources by Files
 
-No resources.
-
+            No resources.
+        
+    
 <!-- END_TF_DOCS -->
 
 ## Contribute
