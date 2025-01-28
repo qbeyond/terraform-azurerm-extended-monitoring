@@ -1,5 +1,5 @@
 locals {
   tenant_id = ""
-  customer = "cust"
+  customer = "cameu"
   logical_name = "sqlmonitoring"
 }

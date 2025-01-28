@@ -1,6 +1,6 @@
 provider "azurerm" {
   features {}
-  subscription_id = ""
+  subscription_id = "b5c68922-1d40-4a46-bafc-e448fbeb96e1"
 }
 
 data "archive_file" "file_function" {
@@ -30,7 +30,7 @@ resource "azurerm_log_analytics_workspace" "log_analytics" {
 }
 
 resource "azurerm_storage_account" "sa_func_app" {
-  name                     = format("sa2%s01", local.logical_name)
+  name                     = format("sa2%s01%s", local.logical_name, local.customer)
   resource_group_name      = azurerm_resource_group.rg_monitoringsql.name
   location                 = azurerm_resource_group.rg_monitoringsql.location
   account_tier             = "Standard"
